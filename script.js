@@ -57,3 +57,32 @@ switch (status) {
   default:
     console.log("default");
 }
+
+const ages = 18;
+
+ages >= 18 ? console.log("18") : console.log("no 18");
+
+const number = [1, 2, 3, 4, 6, 7, 8];
+console.log(number);
+console.log(number.length);
+
+const strs = ["abs", "bsa"];
+
+strs.push("fafs");
+console.log(strs);
+
+for (let index = 0; index < strs.length; index++) {
+  const element = strs[index];
+  console.log(element.toString());
+}
+
+strs.map((item) => {
+  console.log(item.toString());
+});
+
+let i = prompt("Введіть своє ім'я:  ");
+if (i === "") {
+  alert("ви не ввели імені");
+} else {
+  alert("Доброго дня " + i);
+}
