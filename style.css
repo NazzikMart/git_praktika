@@ -1,0 +1,10 @@
+button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: 700;
+    border: 2px solid green;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
